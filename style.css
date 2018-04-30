@@ -46,27 +46,99 @@ header nav {
   width: 100%;
   display: flex;
   flex-direction: row;
-  font-family: "Georgia";
+  font-family: "Georgia", serif;;
   font-size: 17px;
   color: black;
   padding-top: 150px;
   justify-content: space-around;
 }
 
+.span {
+  display: flex;
+}
+
+p {
+  display: flex;
+  font-size: 17px;
+  color: black;
+}
+
+/*Column 1*/
 .column.large {
   width: 630px;
   display: flex;
   flex-direction: column;
+  
 }
 
+.image-main span{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  background-repeat: no-repeat;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  z-index: 1;
+  align-content: center;
+}
+
+.image-earth {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  background-repeat: no-repeat;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  z-index: 1;
+
+}
+
+.image-camera {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  background-repeat: no-repeat;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  z-index: 1;
+
+}
+
+/*Column 2*/
 .column.medium {
   width: 300px;
   display: flex;
   flex-direction: column;
 }
 
+.image-cat span{
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  background-repeat: no-repeat;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  z-index: 1;
+}
+
+/*Column 3*/
 .column.small {
   width: 240px;
   display: flex;
   flex-direction: column;
+}
+
+.image-cookie {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png");
+  background-repeat: no-repeat;
+}
+
+.new-bites {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
