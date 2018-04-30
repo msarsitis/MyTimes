@@ -1,0 +1,72 @@
+/* Header */
+
+header {
+  font-family: "Veranda", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+
+.log img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+nav span {
+  padding: 10px;
+  color: black;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+/* Content */
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Georgia";
+  font-size: 17px;
+  color: black;
+  padding-top: 150px;
+  justify-content: space-around;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
